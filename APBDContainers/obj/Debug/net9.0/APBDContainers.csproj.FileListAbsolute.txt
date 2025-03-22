@@ -1,0 +1,15 @@
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\bin\Debug\net9.0\APBDContainers.exe
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\bin\Debug\net9.0\APBDContainers.deps.json
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\bin\Debug\net9.0\APBDContainers.runtimeconfig.json
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\bin\Debug\net9.0\APBDContainers.dll
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\bin\Debug\net9.0\APBDContainers.pdb
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.AssemblyInfoInputs.cache
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.AssemblyInfo.cs
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.csproj.CoreCompileInputs.cache
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.sourcelink.json
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.dll
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\refint\APBDContainers.dll
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.pdb
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\APBDContainers.genruntimeconfig.cache
+C:\Users\haras\RiderProjects\APBDContainers\APBDContainers\obj\Debug\net9.0\ref\APBDContainers.dll
