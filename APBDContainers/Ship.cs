@@ -85,7 +85,7 @@ public class Ship
         string res = $"Max speed {MaxSpeed} knots, max capacity {MaxContainers}, max weight {MaxCargoWeight}";
         foreach (Container container in Containers)
         {
-            res += container.ContainerToString();
+            res += ", " + container.ContainerToString();
         }
         return res;
     }

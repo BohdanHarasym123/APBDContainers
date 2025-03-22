@@ -30,6 +30,6 @@ public class RefrigeratedContainer : Container
 
     public override string ContainerToString()
     {
-        return base.ToString() + $" type {Type}, temperature {Temperature}";
+        return base.ContainerToString() + $", type {Type}, temperature {Temperature}";
     }
 }
