@@ -27,4 +27,9 @@ public class RefrigeratedContainer : Container
     {
         CargoMass = 0;
     }
+
+    public override string ContainerToString()
+    {
+        return base.ToString() + $" type {Type}, temperature {Temperature}";
+    }
 }

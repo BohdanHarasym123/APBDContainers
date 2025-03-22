@@ -22,4 +22,9 @@ public abstract class Container
     public abstract void LoadCargo(double mass) ;
 
     public abstract void EmptyCargo();
+
+    public virtual string ContainerToString()
+    {
+        return $"Container {SerialNumber}, tare weight {TareWeight}, mass of cargo {CargoMass}, maximum payload {MaximumPayload}";
+    }
 }
