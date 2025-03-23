@@ -19,7 +19,7 @@ Console.WriteLine(gasContainer.ContainerToString());
 gasContainer.LoadCargo(50);
 Console.WriteLine(gasContainer.ContainerToString());
 
-Container refContainer = new RefrigeratedContainer(10, 10, 10, 300, "Pizza", -30);
+Container refContainer = new RefrigeratedContainer(10, 10, 10, 300, "Frozen Pizza", -40);
 refContainer.LoadCargo(150);
 Console.WriteLine(refContainer.ContainerToString());
 
