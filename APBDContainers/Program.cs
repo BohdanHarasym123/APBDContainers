@@ -33,3 +33,20 @@ ship.LoadContainersList(conts);
 
 Console.WriteLine(ship);
 ship.UnloadContainer("KON-G-2");
+
+Console.WriteLine(ship);
+ship.ReplaceContainer("KON-L-1", gasContainer);
+Console.WriteLine(ship);
+
+Ship ship2 = new Ship(50, 4, 500);
+ship.TransferContainer("KON-R-3", ship2);
+Console.WriteLine(ship);
+Console.WriteLine(ship2);
+
+ship.LoadContainer(refContainer);
+ship.LoadContainer(liquidContainer);
+
+Container gasContainer2 = new GasContainer(0, 0, 0, 500, 50);
+Container gasContainer3 = new GasContainer(0, 0, 0, 500, 50);
+ship.LoadContainer(gasContainer2);
+ship.LoadContainer(gasContainer3);

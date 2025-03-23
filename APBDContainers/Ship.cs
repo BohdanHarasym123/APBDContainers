@@ -55,17 +55,35 @@ public class Ship
         }
     }
 
-    public void ReplaceContainer(int index, Container container)
+    public void ReplaceContainer(string SerialNumber, Container container)
     {
-        Containers.RemoveAt(index);
-        Containers.Add(container);
+        // UnloadContainer(SerialNumber);
+        // Containers.Add(container);
+        for(int i = 0; i < Containers.Count(); i++)
+        {
+            if (Containers[i].SerialNumber.Equals(SerialNumber))
+            {
+                Containers.RemoveAt(i);
+                Containers.Add(container);
+            }
+        }
     }
 
-    public void TransferContainer(int index, Ship ship)
+    public void TransferContainer(string SerialNumber, Ship ship)
     {
-        Container container = Containers[index];
-        Containers.RemoveAt(index);
-        ship.LoadContainer(container);
+        // Container container = Containers[index];
+        // Containers.RemoveAt(index);
+        // ship.LoadContainer(container);
+        
+        for(int i = 0; i < Containers.Count(); i++)
+        {
+            if (Containers[i].SerialNumber.Equals(SerialNumber))
+            {
+                Container con = Containers[i];
+                Containers.RemoveAt(i);
+                ship.LoadContainer(con);
+            }
+        }
     }
 
 
